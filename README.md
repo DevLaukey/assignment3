@@ -116,7 +116,7 @@ Error response:
         "message" : <String> - error message about what went wrong
     }
 
-### CharCount: ###
+### CharCountTest: ###
 This one will count the number of characters in a given string, with the option to search for a specific character in the string. 
 If the user specifies a character to search for, alter the request to include the character and return the number of times that character is found in the string.
 If the user does not specify a character to search for, return the number of characters in the string.
