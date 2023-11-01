@@ -36,5 +36,9 @@ task Client(type: JavaExec) {
     if (project.hasProperty('host') && project.hasProperty('port')) {
       args project.property('host'), project.property('port')
     }
+    else{
+      args "18.119.106.150"
+      args 8888
+    }
   }
 }
